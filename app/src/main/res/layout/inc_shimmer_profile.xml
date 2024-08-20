@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:shimmer_duration="1000">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <pronin.oleg.zulip.presentation.custom_view.RoundImageView
+            android:id="@+id/avatarShimmer"
+            android:layout_width="@dimen/profile_avatar_size"
+            android:layout_height="@dimen/profile_avatar_size"
+            android:layout_marginBottom="@dimen/shimmer_profile_avatar_margin_bottom"
+            android:src="@color/emperor"
+            app:layout_constraintBottom_toTopOf="@+id/fullNameShimmer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:radius="@dimen/profile_avatar_radius" />
+
+        <View
+            android:id="@+id/fullNameShimmer"
+            android:layout_width="@dimen/shimmer_profile_fullname_width"
+            android:layout_height="@dimen/shimmer_profile_fullname_height"
+            android:background="@drawable/shimmer_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="@dimen/shimmer_profile_status_width"
+            android:layout_height="@dimen/shimmer_profile_status_height"
+            android:layout_marginTop="@dimen/shimmer_profile_status_margin_top"
+            android:background="@drawable/shimmer_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fullNameShimmer" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.facebook.shimmer.ShimmerFrameLayout>

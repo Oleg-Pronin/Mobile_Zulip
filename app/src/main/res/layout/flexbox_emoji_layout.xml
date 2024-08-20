@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="pronin.oleg.zulip.presentation.custom_view.emoji.FlexboxEmojiLayout">
+
+    <ImageView
+        android:id="@+id/addEmojiBtn"
+        style="@style/EmojiStyleAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/content_desc_add_emoji"
+        android:src="@drawable/ic_plus" />
+
+</merge>

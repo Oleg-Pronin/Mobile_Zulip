@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/shimmer_people_padding_horizontal"
+    android:paddingVertical="@dimen/shimmer_people_padding_vertical">
+
+    <pronin.oleg.zulip.presentation.custom_view.RoundImageView
+        android:id="@+id/avatarShimmer"
+        android:layout_width="@dimen/people_avatar_size"
+        android:layout_height="@dimen/people_avatar_size"
+        android:src="@color/emperor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:radius="@dimen/avatar_radius" />
+
+    <View
+        android:id="@+id/statusUser"
+        android:layout_width="@dimen/people_status_size"
+        android:layout_height="@dimen/people_status_size"
+        android:background="@drawable/shimmer_status_bg"
+        app:layout_constraintBottom_toBottomOf="@+id/avatarShimmer"
+        app:layout_constraintEnd_toEndOf="@+id/avatarShimmer" />
+
+    <View
+        android:id="@+id/fullNameUser"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/shimmer_people_fullname_height"
+        android:layout_marginHorizontal="@dimen/shimmer_people_fullname_margin_horizontal"
+        android:background="@drawable/shimmer_bg"
+        app:layout_constraintBottom_toTopOf="@+id/emailUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/avatarShimmer"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/emailUser"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/shimmer_people_email_height"
+        android:layout_marginStart="@dimen/shimmer_people_email_margin_start"
+        android:layout_marginEnd="@dimen/shimmer_people_email_margin_end"
+        android:background="@drawable/shimmer_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/avatarShimmer"
+        app:layout_constraintTop_toBottomOf="@+id/fullNameUser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

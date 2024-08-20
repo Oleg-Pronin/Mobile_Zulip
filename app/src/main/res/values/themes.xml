@@ -1,0 +1,240 @@
+<resources>
+
+    <style name="Base.Theme.Homework" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/jungle_green</item>
+        <item name="colorPrimaryDark">@color/jungle_green</item>
+        <item name="android:colorBackground">@color/chinese_black</item>
+        <item name="android:navigationBarColor">@color/eerie_black</item>
+        <item name="android:textColorPrimary">@color/lotion</item>
+
+        <!-- Base Color -->
+        <item name="colorAccent">@color/jungle_green</item>
+        <item name="colorButtonNormal">@color/eerie_black</item>
+    </style>
+
+    <style name="Theme.Homework" parent="Base.Theme.Homework" />
+
+    <!-- Basic -->
+    <style name="Title">
+        <item name="android:background">@color/cod_gray</item>
+        <item name="android:textColor">@color/lotion</item>
+        <item name="android:paddingVertical">@dimen/topic_name_padding_vertical</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Specification">
+        <item name="android:textColor">@color/quick_silver</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingHorizontal">21dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textColor">@color/chinese_silver</item>
+        <item name="android:textColorHint">@color/chinese_silver</item>
+    </style>
+
+    <style name="BaseButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/button_bg</item>
+        <item name="android:textAppearance">@style/ButtonTextAppearance</item>
+    </style>
+
+    <!-- ProgressBar -->
+    <style name="StandardProgressBar" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:indeterminate">true</item>
+        <item name="trackCornerRadius">20dp</item>
+        <item name="indicatorSize">50dp</item>
+    </style>
+
+    <style name="SmallProgressBar" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:indeterminate">true</item>
+        <item name="trackCornerRadius">20dp</item>
+        <item name="trackColor">@color/cod_gray</item>
+        <item name="indicatorSize">20dp</item>
+    </style>
+
+    <!-- BottomNavigation -->
+    <style name="BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/eerie_black</item>
+        <item name="itemTextColor">@color/nav_bottom_color</item>
+        <item name="itemIconTint">@color/nav_bottom_color</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance</item>
+        <item name="itemActiveIndicatorStyle">@style/IndicatorStyle</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemPaddingTop">8dp</item>
+        <item name="itemPaddingBottom">8dp</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+
+    <style name="IndicatorStyle">
+        <item name="color">@android:color/transparent</item>
+    </style>
+
+    <!-- Button -->
+    <style name="ButtonTextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Search -->
+    <style name="SearchEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:backgroundTint">@color/dark_charcoal</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:paddingStart">37dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <!-- TabLayout -->
+    <style name="BaseTab" parent="Widget.Material3.TabLayout">
+        <item name="android:background">@color/eerie_black</item>
+        <item name="android:backgroundTint">@color/eerie_black</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabTextAppearance">@style/BaseTabTextAppearance</item>
+        <item name="tabMaxWidth">300dp</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabIndicator">@drawable/message_bg</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabIndicatorColor">@color/sea_green</item>
+        <item name="tabRippleColor">@color/sea_green</item>
+    </style>
+
+    <style name="BaseTabTextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="fontWeight">300</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Chat -->
+    <style name="ChatToolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/jungle_green</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIcon">@drawable/ic_left_arrow</item>
+    </style>
+
+    <style name="TopicStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@color/cod_gray</item>
+        <item name="android:textColor">@color/chinese_silver</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingVertical">@dimen/topic_name_padding_vertical</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EmojiStyle">
+        <item name="android:background">@drawable/emoji_bg</item>
+        <item name="android:paddingHorizontal">@dimen/emoji_padding_horizontal</item>
+        <item name="android:paddingVertical">@dimen/emoji_padding_vertical</item>
+        <item name="emojiTextSize">@dimen/emoji_text_size</item>
+        <item name="emojiTextColor">@color/chinese_silver</item>
+    </style>
+
+    <style name="EmojiStyleAdd">
+        <item name="android:background">@drawable/emoji_bg</item>
+        <item name="android:paddingHorizontal">@dimen/emoji_add_padding_horizontal</item>
+        <item name="android:paddingVertical">@dimen/emoji_padding_vertical</item>
+        <item name="emojiTextSize">@dimen/emoji_text_size</item>
+        <item name="emojiTextColor">@color/chinese_silver</item>
+    </style>
+
+    <style name="DateMessageText" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/date_message_bg</item>
+        <item name="android:textColor">@color/spanish_gray</item>
+        <item name="android:paddingHorizontal">@dimen/date_message_padding_horizontal</item>
+        <item name="android:paddingVertical">@dimen/date_message_padding_vertical</item>
+    </style>
+
+    <style name="MessageEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/message_edittext_bg</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:paddingHorizontal">21dp</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:textColor">@color/chinese_silver</item>
+        <item name="android:textColorHint">@color/chinese_silver</item>
+    </style>
+
+    <!-- Profile -->
+    <style name="ProfileToolbar" parent="ChatToolbar">
+        <item name="android:background">@color/eerie_black</item>
+        <item name="titleCentered">true</item>
+        <item name="title">Profile</item>
+    </style>
+
+    <style name="ProfileFullName">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="ProfileLogOutBtn" parent="Widget.Material3.Button">
+        <item name="android:textAppearance">@style/ButtonTextAppearance</item>
+        <item name="android:paddingHorizontal">56dp</item>
+        <item name="android:paddingVertical">14dp</item>
+        <item name="android:backgroundTint">@color/eerie_black</item>
+    </style>
+
+    <style name="ProfileStatus">
+        <item name="android:textColor">@color/apple</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <!-- People -->
+    <style name="PeopleFullName" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/lotion</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="PeopleEmail" parent="PeopleFullName">
+        <item name="android:textColor">@color/quick_silver</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">middle</item>
+    </style>
+
+    <!-- Channels. Stream item -->
+    <style name="StreamItem" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/lotion</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+    </style>
+
+    <style name="TopicItem" parent="StreamItem">
+        <item name="android:layout_marginStart">40dp</item>
+    </style>
+
+    <style name="TopicCountItem" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:textColor">@color/lotion</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontWeight">300</item>
+    </style>
+
+    <!-- Channels. Stream item -->
+    <style name="RadioButtonItem" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/lotion</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

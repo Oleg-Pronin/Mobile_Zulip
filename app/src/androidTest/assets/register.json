@@ -1,0 +1,10 @@
+{
+  "result": "success",
+  "msg": "",
+  "queue_id": "c94673c1-4f60-461d-9c5a-aa8834004571",
+  "zulip_version": "9.0-dev-2689-g88edd3cce7",
+  "zulip_feature_level": 261,
+  "zulip_merge_base": "9.0-dev-2674-g39c6a01c74",
+  "max_message_id": 440004216,
+  "last_event_id": -1
+}

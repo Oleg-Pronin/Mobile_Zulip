@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:parentTag="pronin.oleg.zulip.presentation.custom_view.message.MessageInfoLayout">
+
+    <TextView
+        android:id="@+id/userFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/author_message_margin_bottom"
+        android:textColor="@color/jungle_green"
+        android:textSize="@dimen/message_info_text_size"
+        tools:text="Darrell Steward" />
+
+    <TextView
+        android:id="@+id/messageContent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lotion"
+        android:textSize="@dimen/message_info_text_size"
+        tools:text="Привет! lorem ipsum test message dalshe zabil" />
+
+</merge>

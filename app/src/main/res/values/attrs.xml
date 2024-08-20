@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmojiView">
+        <attr name="emoji" format="string"/>
+        <attr name="emojiCount" format="integer"/>
+        <attr name="emojiTextColor" format="color"/>
+        <attr name="emojiTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlexboxEmojiLayout">
+        <attr name="horizontalMargins" format="dimension"/>
+        <attr name="verticalMargins" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="MessageInfoLayout">
+        <attr name="userFullName" format="string"/>
+        <attr name="messageContent" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MessageLayout">
+        <attr name="messageUserAvatar" format="string"/>
+        <attr name="isOwnMessage" format="boolean"/>
+        <attr name="messageInfoUserFullName" format="string"/>
+        <attr name="messageInfoContent" format="string"/>
+        <attr name="messageInfoBackground" format="reference|color"/>
+        <attr name="android:gravity" />
+    </declare-styleable>
+</resources>

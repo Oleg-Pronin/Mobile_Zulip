@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:parentTag="pronin.oleg.zulip.presentation.custom_view.message.MessageLayout">
+
+    <pronin.oleg.zulip.presentation.custom_view.RoundImageView
+        android:id="@+id/userAvatar"
+        android:layout_width="@dimen/message_avatar_size"
+        android:layout_height="@dimen/message_avatar_size"
+        android:src="@drawable/ic_avatar"
+        app:radius="@dimen/avatar_radius" />
+
+    <pronin.oleg.zulip.presentation.custom_view.message.MessageInfoLayout
+        android:id="@+id/messageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_to_avatar"
+        android:background="@drawable/message_bg"
+        android:paddingHorizontal="@dimen/message_padding_horizontal"
+        android:paddingVertical="@dimen/message_padding_vertical" />
+
+    <pronin.oleg.zulip.presentation.custom_view.emoji.FlexboxEmojiLayout
+        android:id="@+id/flexboxEmoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_to_avatar"
+        android:layout_marginTop="@dimen/margin_to_massage"
+        app:horizontalMargins="@dimen/horizontal_margin_between_emoji"
+        app:verticalMargins="@dimen/vertical_margin_between_emoji" />
+</merge>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#BCBCBC</color>
+
+    <color name="lotion">#FAFAFA</color>
+    <color name="chinese_silver">#CCCCCC</color>
+    <color name="quick_silver">#A1A1A1</color>
+    <color name="spanish_gray">#999999</color>
+    <color name="philippine_gray">#919191</color>
+    <color name="emperor">#555555</color>
+    <color name="black_olive">#3A3A3A</color>
+    <color name="dark_charcoal">#323232</color>
+    <color name="charleston_green">#282828</color>
+    <color name="eerie_black">#1E1E1E</color>
+    <color name="cod_gray">#1C1C1C</color>
+    <color name="chinese_black">#121212</color>
+    <color name="vampire_black">#070707</color>
+
+    <color name="apple">#4AB54D</color>
+    <color name="naughty_red">#C91E0B</color>
+    <color name="princeton_orange">#EB7F19</color>
+    <color name="sea_green">#219653</color>
+    <color name="jungle_green">#2A9D8F</color>
+    <color name="bangladesh_green">#006153</color>
+
+</resources>

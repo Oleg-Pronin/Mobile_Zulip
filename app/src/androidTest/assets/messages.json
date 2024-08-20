@@ -1,0 +1,57 @@
+{
+  "result": "success",
+  "msg": "",
+  "messages": [
+    {
+      "id": 440058274,
+      "sender_id": 708830,
+      "content": "message 1",
+      "recipient_id": 1266872,
+      "timestamp": 1716372473,
+      "client": "website",
+      "subject": "new_2",
+      "topic_links": [],
+      "is_me_message": false,
+      "reactions": [],
+      "submessages": [],
+      "flags": [
+        "read"
+      ],
+      "sender_full_name": "Oleg",
+      "sender_email": "user708830@tinkoff-android-spring-2024.zulipchat.com",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "test test test",
+      "type": "stream",
+      "stream_id": 434442,
+      "avatar_url": "https://zulip-avatars.s3.amazonaws.com/63414/e168d6f4c9ffe7c10928d823a14f87df7e6dc183?version=3",
+      "content_type": "text/x-markdown"
+    },
+    {
+      "id": 440058429,
+      "sender_id": 710147,
+      "content": "message 2",
+      "recipient_id": 1266872,
+      "timestamp": 1716372517,
+      "client": "website",
+      "subject": "new_2",
+      "topic_links": [],
+      "is_me_message": false,
+      "reactions": [],
+      "submessages": [],
+      "flags": [],
+      "sender_full_name": "Robin",
+      "sender_email": "user710147@tinkoff-android-spring-2024.zulipchat.com",
+      "sender_realm_str": "tinkoff-android-spring-2024",
+      "display_recipient": "test test test",
+      "type": "stream",
+      "stream_id": 434442,
+      "avatar_url": "https://secure.gravatar.com/avatar/a613e1b34b61930fdd3d48d67bff5b70?d=identicon&version=1",
+      "content_type": "text/x-markdown"
+    }
+  ],
+  "found_anchor": true,
+  "found_oldest": true,
+  "found_newest": false,
+  "history_limited": false,
+  "anchor": 440058429
+}

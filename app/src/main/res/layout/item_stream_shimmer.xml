@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/stream_height">
+
+    <View
+        android:id="@+id/nameStream"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/stream_name_shimmer_height"
+        android:layout_marginHorizontal="@dimen/stream_name_shimmer_margin_horizontal"
+        android:background="@drawable/shimmer_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/arrowStream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/arrowStream"
+        android:layout_width="@dimen/stream_arrow_shimmer_size"
+        android:layout_height="@dimen/stream_arrow_shimmer_size"
+        android:layout_marginEnd="@dimen/stream_arrow_margin_end"
+        android:background="@drawable/shimmer_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stream_divider_height"
+        app:dividerColor="@color/charleston_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

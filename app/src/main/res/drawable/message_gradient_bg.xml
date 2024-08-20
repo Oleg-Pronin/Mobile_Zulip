@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:type="linear"
+        android:startColor="@color/jungle_green"
+        android:endColor="@color/bangladesh_green"
+        android:angle="315"/>
+    <corners android:radius="@dimen/message_radius"/>
+</shape>
