@@ -20,4 +20,4 @@ Android View, Kotlin, Coroutines, Cicerone, Okhttp3, Retrofit2, Dagger, Room, Gl
 
 ## Демонстрация
 
-![](readme_file/demo.MOV)
+![](https://github.com/Oleg-Pronin/Mobile_Zulip/blob/master/readme_file/demo.gif)
